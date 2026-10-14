@@ -1,27 +1,24 @@
 import type { Metadata } from "next";
 
 export const siteConfig = {
-  name: "Security",
+  name: "Sentinel",
   description:
-    "A premium, accessible security landing page template built with Next.js, Tailwind CSS, and TypeScript.",
-  url: "https://example.com",
+    "Sentinel gives security teams a unified platform for detection, response, and compliance — built to adapt as fast as threats evolve.",
+  url: "https://security.rigelstudios.co",
   ogImage: "/og-image.png",
-  creator: "@yourhandle",
+  creator: "@rigelstudios",
   authors: [
     {
-      name: "Your Name",
-      url: "https://example.com",
+      name: "Rigel Studios",
+      url: "https://security.rigelstudios.co",
     },
   ],
   keywords: [
     "security",
     "cybersecurity",
-    "landing page",
-    "template",
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "TypeScript",
+    "threat detection",
+    "enterprise security",
+    "Sentinel",
   ],
 } as const;
 

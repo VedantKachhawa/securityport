@@ -21,10 +21,10 @@ import type { ReactNode } from "react";
 export const metadata: Metadata = {
   ...createMetadata({
     title: "Home",
-    description: `Welcome to ${siteConfig.name}. ${siteConfig.description}`,
+    description: siteConfig.description,
     path: "/",
   }),
-  title: { absolute: "Security Template" },
+  title: { absolute: siteConfig.name },
 };
 
 // Plain literals (built server-side) passed as props to the client motion
